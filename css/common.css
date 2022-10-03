@@ -31,9 +31,7 @@ flex
     align-items: flex-end;
 
 }
-.text-align-center{
-    text-align: center;
-}
+
 .col{
 padding-left: .625rem;
 padding-right: .625rem;
