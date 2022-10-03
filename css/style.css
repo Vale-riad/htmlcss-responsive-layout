@@ -17,6 +17,7 @@ width:100%;
 margin: .625rem 0;
 
 }
+/*tablet*/
 
 @media  screen and (min-width:768px){
     .highlights .col{
@@ -29,4 +30,26 @@ margin: .625rem 0;
    
 
 }
+}
+
+/*---------------------
+Section Strategic
+---------------------*/
+
+.strategic{
+  background-color: var(--second-color);
+}
+.strategic .col{
+    width:100%;
+    margin: 0.625em 0;
+}
+
+/*tablet*/
+
+@media  screen and (min-width:768px){
+    .strategic .col{
+        width:50%;
+        
+    }
+    
 }

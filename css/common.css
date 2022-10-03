@@ -26,6 +26,12 @@ flex
     margin-left: -0.625em;
     margin-right: -0.625rem;
 }
+
+.align-itmes-end{
+    align-items: flex-end;
+
+}
+
 .col{
 padding-left: .625rem;
 padding-right: .625rem;
