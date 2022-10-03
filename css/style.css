@@ -70,3 +70,26 @@ Section Testimonials
 /*---------------------
 Section Testimonials
 ---------------------*/
+/*---------------------
+Section Benefits
+---------------------*/
+.benefits{
+    background-color: var(--second-color);
+}
+.col-titolo {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.col-benefits {
+    background-color: white; 
+    margin:10px;  
+}
+@media screen and ( min-width:768px) {        
+    .benefits .col {
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100 / 2);
+        margin:10px;
+    }
+}
