@@ -32,6 +32,7 @@ margin: .625rem 0;
 }
 }
 
+
 /*---------------------
 Section Strategic
 ---------------------*/
@@ -53,3 +54,19 @@ Section Strategic
     }
     
 }
+/*---------------------
+Section Testimonials
+---------------------*/
+.card-title{
+    text-align: center;
+}
+.card-testimonials {
+    background-color: var(--second-color);       
+    width: 100%;
+    text-align: center;
+    margin:10px;
+
+}
+/*---------------------
+Section Testimonials
+---------------------*/
