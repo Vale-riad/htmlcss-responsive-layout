@@ -1,0 +1,25 @@
+/*---------------------
+common
+---------------------*/
+.container{
+    max-width:  68.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin:auto;
+}
+.list-inline{
+    display: flex;
+    list-style: none;
+    decoration:none;
+}
+/*---------------------
+flex
+---------------------*/
+
+.row{
+    display:flex;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}

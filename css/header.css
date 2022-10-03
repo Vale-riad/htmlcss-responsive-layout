@@ -1,0 +1,21 @@
+/*---------------------
+header
+---------------------*/
+header{
+    background-color: var(--first-color);
+    padding: 1.25rem 0;
+    color:white;
+}
+
+.main-nav{
+    display: none;
+}
+@media  screen and (min-width:769px){
+    .hamburger{
+        display: none;
+    }
+
+    .main-nav{
+    display: block;
+}
+}
