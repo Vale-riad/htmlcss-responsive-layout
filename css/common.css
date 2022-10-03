@@ -1,6 +1,9 @@
 /*---------------------
 common
 ---------------------*/
+section{
+    padding: 1.875rem 0;
+}
 .container{
     max-width:  68.75rem;
     padding-left: 1.25rem;
@@ -10,14 +13,22 @@ common
 .list-inline{
     display: flex;
     list-style: none;
-    decoration:none;
 }
 /*---------------------
 flex
 ---------------------*/
-
+.flex{
+    display:flex;
+}
 .row{
     display:flex;
+    flex-wrap: wrap;
+    margin-left: -0.625em;
+    margin-right: -0.625rem;
+}
+.col{
+padding-left: .625rem;
+padding-right: .625rem;
 }
 
 .justify-space-between{

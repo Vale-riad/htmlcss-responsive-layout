@@ -10,7 +10,7 @@ header{
 .main-nav{
     display: none;
 }
-@media  screen and (min-width:769px){
+@media  screen and (min-width:992px){
     .hamburger{
         display: none;
     }
