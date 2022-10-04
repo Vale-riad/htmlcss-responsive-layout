@@ -93,11 +93,13 @@ Section Strategic
 }
 
 .container-text-img{
+    align-items: flex-end;
     background-color: aliceblue;
     color:black;
     text-align: center;
     border-radius: 20px;
     padding:10px;
+    height:
 }
 .strategic p{
     padding:10px;
@@ -116,16 +118,29 @@ Section Strategic
     width:100%;
     margin: 0.625em 0;
 }
+.col-2{
+    padding: 1.25rem;
+}
 
 /*tablet*/
 
 @media  screen and (min-width:768px){
     .strategic .col{
         width:50%;
+        margin:auto;
         
+        
+    }
+    .col-2 img{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
     }
     
 }
+
 /*---------------------
 Section Testimonials
 ---------------------*/
