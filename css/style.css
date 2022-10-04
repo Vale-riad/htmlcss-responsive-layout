@@ -53,6 +53,7 @@ Section Hightlights
     font-size: 300%;
     color: var(--first-color);
 }
+
 /*tablet*/
 
 @media  screen and (min-width:768px){
@@ -72,6 +73,12 @@ Section Hightlights
         
     
 }
+.highlights .col:first-child{
+    width: calc( (100% / 3) *2);
+
+
+}
+
 
 
     
@@ -80,9 +87,21 @@ Section Hightlights
 /*---------------------
 Section Strategic
 ---------------------*/
+.strategic img{
+    width:100%;
+    display: block;
+}
+.strategic .img2{
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: block;
+    
+}
+
 
 .strategic{
   background-color: var(--second-color);
+  color:white;
 }
 .strategic .col{
     width:100%;
