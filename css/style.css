@@ -10,13 +10,22 @@ Section Hightlights
 ---------------------*/
 .card-debug{
     background-color: var(--first-color-light);
-    height:100px;
+    
 }
 
 .highlights .col{
 width:100%;
 margin: .625rem 0;
 
+}
+.highlights img{
+    max-width: 200px;
+    margin:auto;
+    object-fit: cover;
+}
+.highlights .flex {
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 /*tablet*/
 
