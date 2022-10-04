@@ -1,6 +1,9 @@
 /*---------------------
 common
 ---------------------*/
+body{
+    font-family: 'PT Sans', sans-serif;
+}
 section{
     padding: 1.875rem 0;
 }
