@@ -10,6 +10,9 @@ Section Hightlights
 ---------------------*/
 .card-debug{
     background-color: var(--first-color-light);
+    padding:20px;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
     
 }
 
@@ -19,25 +22,52 @@ margin: .625rem 0;
 
 }
 .highlights img{
-    max-width: 200px;
-    margin:auto;
-    object-fit: cover;
+    width: 60%;
+}
+
+.highlights .flex {
+    flex-wrap: wrap;
 }
 
 .highlights .btn {
     background-color: var(--first-color);
     border-color: var(--first-color);
     color: white;
-    margin: 1.25rem 0;
-    width: 13.125rem;
-    height: 2.5rem;
+    margin: 20px 0;
+    width: 210px;
+    height: 40px;
     
+}
+.highlights h4 {
+    color: var(--first-color);
+    padding: .625rem 0;
+    font-size: 1.25rem;
+}
+.highlights p {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px 0;
+}
+.icon{
+    font-size: 300%;
+    color: var(--first-color);
 }
 /*tablet*/
 
 @media  screen and (min-width:768px){
     .highlights .col{
         width: calc(100% / 3);
+
+    }
+        .highlights img{
+            margin-left:10px;
+        }
+        .highlights .btn{
+            width:200px;
+        }
+        .height {
+            height:410px;
+        }
         
     
 }
@@ -47,6 +77,10 @@ margin: .625rem 0;
 
 }
 }
+.highlightsw{
+
+}
+    
 
 
 /*---------------------
