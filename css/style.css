@@ -23,16 +23,22 @@ margin: .625rem 0;
     margin:auto;
     object-fit: cover;
 }
-.highlights .flex {
-    flex-wrap: wrap;
-    align-items: stretch;
+
+.highlights .btn {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+    color: white;
+    margin: 1.25rem 0;
+    width: 13.125rem;
+    height: 2.5rem;
+    
 }
 /*tablet*/
 
 @media  screen and (min-width:768px){
     .highlights .col{
         width: calc(100% / 3);
-       
+        
     
 }
 .highlights .col:first-child{
