@@ -16,6 +16,7 @@ section{
 .list-inline{
     display: flex;
     list-style: none;
+
 }
 /*---------------------
 flex
@@ -45,4 +46,11 @@ padding-right: .625rem;
 
 .justify-space-between{
     justify-content: space-between;
+}
+/*---------------------
+buttons
+---------------------*/
+.btn{
+    border-radius: 1.25rem;
+    border: none;
 }

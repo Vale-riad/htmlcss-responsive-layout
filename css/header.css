@@ -7,13 +7,28 @@ header{
     color:white;
     position: sticky;
     top: 0;
-    
 }
-img{
-    width:50%;
+.hamburger{
+    background-color: var(--first-color);
+    color: white;
+}
+.logo{
+    padding-top: 5px;
+}
+header li{
+    padding: .625rem;
+}
+a{
+    text-decoration: none;
+    color:white;
 }
 .main-nav{
     display: none;
+}
+.btn-header{
+    background-color: white;
+   padding:5px 5px 5px 5px;
+   text-align:center ;
 }
 @media  screen and (min-width:992px){
     .hamburger{
