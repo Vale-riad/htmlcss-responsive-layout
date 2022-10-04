@@ -31,6 +31,9 @@ flex
     align-items: flex-end;
 
 }
+.text-center{
+    text-align:center;
+}
 
 .col{
 padding-left: .625rem;
