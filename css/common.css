@@ -42,11 +42,13 @@ flex
 .col{
 padding-left: .625rem;
 padding-right: .625rem;
+background-color: brown;
 }
 
 .justify-space-between{
     justify-content: space-between;
 }
+
 /*---------------------
 buttons
 ---------------------*/

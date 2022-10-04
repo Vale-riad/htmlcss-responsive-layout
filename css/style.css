@@ -17,10 +17,11 @@ Section Hightlights
 }
 
 .highlights .col{
-width:100%;
-margin: .625rem 0;
-
-}
+    width:100%;
+    margin: .625rem 0;
+    
+    }
+  
 .highlights img{
     width: 60%;
 }
@@ -71,15 +72,8 @@ margin: .625rem 0;
         
     
 }
-.highlights .col:first-child{
-    width: calc( (100% / 3) *2);
-   
 
-}
-}
-.highlightsw{
 
-}
     
 
 
